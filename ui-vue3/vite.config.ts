@@ -17,7 +17,6 @@ import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
-import checker from 'vite-plugin-checker'
 
 export default defineConfig({
   base: '/ui',
@@ -41,16 +40,6 @@ export default defineConfig({
   plugins: [
     vue(), 
     vueJsx(),
-    checker({
-      // Enable TypeScript checking in development
-      typescript: true,
-      // Temporarily disable Vue template type checking due to @volar/typescript compatibility issue
-      // vueTsc: true,
-      // Enable ESLint checking
-      eslint: {
-        lintCommand: 'eslint "./src/**/*.{ts,tsx,vue}"'
-      }
-    })
   ],
   resolve: {
     alias: {

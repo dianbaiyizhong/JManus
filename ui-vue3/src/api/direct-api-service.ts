@@ -43,7 +43,7 @@ export class DirectApiService {
   public static async sendMessageWithDefaultPlan(query: InputMessage): Promise<any> {
     return LlmCheckService.withLlmCheck(async () => {
       // Use default plan template ID as toolName
-      const toolName = 'default-plan-id-001000222'
+      const toolName = 'planTemplate-1759381565295'
       
       // Create replacement parameters with user input
       const replacementParams = {
