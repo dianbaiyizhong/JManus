@@ -699,7 +699,8 @@ defineExpose({
 .step-info {
   padding: 20px;
   margin: 0 20px;
-  background: rgba(41, 42, 45, 0.8);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   margin-bottom: 16px;
   min-height: 100px; /* Ensure minimum height */
@@ -710,7 +711,7 @@ defineExpose({
     font-size: 18px;
     font-weight: 600;
     padding-bottom: 8px;
-    border-bottom: 2px solid #667eea;
+    border-bottom: 2px solid rgba(209, 213, 219, 0.8);
   }
 }
 
@@ -763,7 +764,7 @@ defineExpose({
 
     .value {
       flex: 1;
-      color: #cccccc;
+      color: #374151;
       word-break: break-word;
 
       &.success {
@@ -800,7 +801,7 @@ defineExpose({
     }
 
     .status-text {
-      color: #cccccc;
+      color: #374151;
       font-weight: 500;
     }
   }

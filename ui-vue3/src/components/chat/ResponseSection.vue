@@ -166,7 +166,7 @@ const handleUserInputSubmitted = (inputData: any) => {
       
       .bot-icon {
         font-size: 16px;
-        color: #333333;
+        color: #ffffff;
       }
     }
     

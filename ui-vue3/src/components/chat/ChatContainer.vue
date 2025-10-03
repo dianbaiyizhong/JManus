@@ -379,10 +379,10 @@ defineExpose({
     right: 30px;
     width: 40px;
     height: 40px;
-    background: rgba(79, 70, 229, 0.9);
+    background: rgba(74, 144, 226, 0.9);
     border: none;
     border-radius: 50%;
-    color: #333333;
+    color: #ffffff;
     cursor: pointer;
     display: flex;
     align-items: center;
