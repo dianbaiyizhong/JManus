@@ -45,24 +45,6 @@ export const routes: Readonly<RouteRecordType[]> = [
     },
     children: [
       {
-        path: '/init',
-        name: 'init',
-        component: () => import('../views/init/index.vue'),
-        meta: {
-          fullscreen: true,
-          skip: true,
-        },
-      },
-      {
-        path: '/home',
-        name: 'conversation',
-        component: () => import('../views/home/index.vue'),
-        meta: {
-          icon: 'carbon:chat',
-          fullscreen: true,
-        },
-      },
-      {
         path: '/direct/:id?',
         name: 'direct',
         component: () => import('../views/direct/index.vue'),

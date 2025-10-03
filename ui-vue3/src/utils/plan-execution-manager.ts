@@ -359,7 +359,7 @@ export class PlanExecutionManager {
       // Since the original code calls ManusAPI.getDetails, we need to use the existing API services
       // For now, we'll use the relevant methods of PlanActApiService
       const details = await this.getPlanDetails(this.state.activePlanId)
-
+      console.info("=================try1")
       if (!details) {
         console.warn('[PlanExecutionManager] No details received from API - this might be a temporary network issue')
         return

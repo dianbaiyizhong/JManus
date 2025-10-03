@@ -23,21 +23,8 @@
       <!-- Left Panel - Chat -->
       <div class="left-panel" :style="{ width: computedLeftPanelWidth + '%' }">
         <div class="chat-header">
-          <button class="back-button" @click="goBack">
-            <Icon icon="carbon:arrow-left" />
-          </button>
           <h2>{{ $t('conversation') }}</h2>
           <div class="header-actions">
-            <LanguageSwitcher />
-            <button class="config-button" @click="newChat" :title="$t('memory.newChat')">
-              <Icon icon="carbon:add" width="20" />
-            </button>
-            <button class="config-button" @click="handleConfig" :title="$t('direct.configuration')">
-              <Icon icon="carbon:settings-adjust" width="20" />
-            </button>
-            <button class="cron-task-btn" @click="showCronTaskModal = true" :title="$t('cronTask.title')">
-              <Icon icon="carbon:alarm" width="20" />
-            </button>
             <button class="cron-task-btn" @click="memoryStore.toggleSidebar()" :title="$t('memory.selectMemory')">
               <Icon icon="carbon:calendar" width="20" />
             </button>
@@ -111,7 +98,6 @@ import Memory from '@/components/memory/Memory.vue'
 import RightPanel from '@/components/right-panel/RightPanel.vue'
 import ChatContainer from '@/components/chat/ChatContainer.vue'
 import InputArea from '@/components/input/InputArea.vue'
-import LanguageSwitcher from '@/components/language-switcher/LanguageSwitcher.vue'
 import CronTaskModal from '@/components/cron-task-modal/CronTaskModal.vue'
 import { PlanActApiService } from '@/api/plan-act-api-service'
 import { CommonApiService } from '@/api/common-api-service'
@@ -637,9 +623,7 @@ const handlePlanModeClicked = () => {
   console.log('[DirectView] Sidebar toggled, isCollapsed:', sidebarStore.isCollapsed)
 }
 
-const goBack = () => {
-  router.push('/home')
-}
+
 
 const handleConfig = () => {
   router.push('/configs')
