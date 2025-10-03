@@ -27,41 +27,12 @@ export declare type RouteRecordType = RouteRecordRaw & {
 
 export const routes: Readonly<RouteRecordType[]> = [
   {
-    path: '/',
-    name: 'Root',
-    redirect: () => {
-      // Check if system is initialized
-      const hasInitialized = localStorage.getItem('hasInitialized') === 'true'
-      if (!hasInitialized) {
-        return '/init'
-      }
-      
-      // Check if user has visited the homepage before
-      const hasVisited = localStorage.getItem('hasVisitedHome') === 'true'
-      return hasVisited ? '/direct' : '/home'
-    },
+    path: '/direct/:id?',
+    component: () => import('../views/direct/index.vue'),
+    name: 'direct',
     meta: {
       skip: true,
     },
-    children: [
-      {
-        path: '/direct/:id?',
-        name: 'direct',
-        component: () => import('../views/direct/index.vue'),
-        meta: {
-          icon: 'carbon:chat',
-          fullscreen: true,
-        },
-      },
-      {
-        path: '/configs/:category?',
-        name: 'configs',
-        component: () => import('../views/configs/index.vue'),
-        meta: {
-          icon: 'carbon:settings-adjust',
-        },
-      },
-    ],
   },
   {
     path: '/:catchAll(.*)',
@@ -73,25 +44,3 @@ export const routes: Readonly<RouteRecordType[]> = [
   },
 ]
 
-function handlePath(...paths: any[]) {
-  return paths.join('/').replace(/\/+/g, '/')
-}
-
-function handleRoutes(
-  routes: readonly RouteRecordType[] | undefined,
-  parent: RouteRecordType | undefined
-) {
-  if (!routes) return
-  for (const route of routes) {
-    if (parent) {
-      route.path = handlePath(parent.path, route.path)
-    }
-    if (route.redirect && typeof route.redirect === 'string') {
-      route.redirect = handlePath(route.path, route.redirect || '')
-    }
-
-    handleRoutes(route.children, route)
-  }
-}
-
-handleRoutes(routes, undefined)

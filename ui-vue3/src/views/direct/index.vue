@@ -71,8 +71,6 @@
       <RightPanel ref="rightPanelRef" :style="{ width: 100 - leftPanelWidth + '%' }" :current-root-plan-id="currentRootPlanId" />
     </div>
 
-    <!-- Cron Task Modal -->
-    <CronTaskModal v-model="showCronTaskModal" />
 
     <!-- Memory Modal -->
     <Memory
@@ -98,7 +96,6 @@ import Memory from '@/components/memory/Memory.vue'
 import RightPanel from '@/components/right-panel/RightPanel.vue'
 import ChatContainer from '@/components/chat/ChatContainer.vue'
 import InputArea from '@/components/input/InputArea.vue'
-import CronTaskModal from '@/components/cron-task-modal/CronTaskModal.vue'
 import { PlanActApiService } from '@/api/plan-act-api-service'
 import { CommonApiService } from '@/api/common-api-service'
 import { useTaskStore } from '@/stores/task'
@@ -123,7 +120,6 @@ const sidebarRef = ref()
 const isExecutingPlan = ref(false)
 const isLoading = ref(false)
 const currentRootPlanId = ref<string | null>(null)
-const showCronTaskModal = ref(false)
 
 // Related to panel width
 const leftPanelWidth = ref(50) // Left panel width percentage
