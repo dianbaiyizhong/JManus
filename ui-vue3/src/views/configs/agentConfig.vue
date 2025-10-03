@@ -852,7 +852,7 @@ watch(
 }
 
 .agent-desc {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   font-size: 14px;
   line-height: 1.4;
   margin-bottom: 12px;
@@ -1275,7 +1275,7 @@ watch(
   padding: 10px 16px;
   background: none;
   border: none;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
   transition: all 0.2s ease;
   text-align: left;

@@ -1075,7 +1075,6 @@ defineExpose({
         border: 1px solid rgba(0, 0, 0, 0.08);
         border-radius: 4px;
         padding: 12px;
-        //color: #cccccc;
         font-size: 12px;
         overflow-x: auto;
         white-space: pre-wrap;
@@ -1300,7 +1299,7 @@ defineExpose({
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.2s ease;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   font-size: 13px;
   font-weight: 500;
   min-width: 0;

@@ -713,7 +713,7 @@ watch(() => props.modelValue, (newValue) => {
 
 .task-description {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   line-height: 1.5;
   margin: 4px 0;
   max-width: 80%;

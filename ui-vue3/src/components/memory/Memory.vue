@@ -587,7 +587,7 @@ const confirmDelete = async () => {
 
 .preview-line {
   font-size: 0.875rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -662,7 +662,7 @@ const confirmDelete = async () => {
 }
 
 .delete-btn {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   background: none;
   border: none;
   cursor: pointer;

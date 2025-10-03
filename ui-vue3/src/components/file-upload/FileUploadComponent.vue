@@ -269,7 +269,7 @@ defineExpose({
   gap: 8px;
   margin-bottom: 4px;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   font-weight: 500;
   cursor: pointer;
   padding: 4px 2px;

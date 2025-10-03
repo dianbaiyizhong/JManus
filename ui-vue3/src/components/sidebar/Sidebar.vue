@@ -714,7 +714,7 @@ defineExpose({
       background: transparent;
       border: none;
       border-radius: 6px;
-      color: rgba(255, 255, 255, 0.7);
+      color: rgba(0, 0, 0, 0.8);
       font-size: 12px;
       font-weight: 500;
       cursor: pointer;
@@ -792,7 +792,7 @@ defineExpose({
           background: transparent;
           border: none;
           border-radius: 4px;
-          color: rgba(255, 255, 255, 0.7);
+          color: rgba(0, 0, 0, 0.8);
           cursor: pointer;
           display: flex;
           align-items: center;
@@ -966,7 +966,7 @@ defineExpose({
 
         .task-preview {
           font-size: 12px;
-          color: rgba(255, 255, 255, 0.7);
+          color: rgba(0, 0, 0, 0.8);
           line-height: 1.4;
           overflow: hidden;
           text-overflow: ellipsis;

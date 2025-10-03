@@ -346,11 +346,11 @@ const formatToolParameters = (parameters?: string): string => {
         .param-content {
           margin: 0;
           padding: 8px;
-          background: rgba(0, 0, 0, 0.2);
+          background: rgba(82, 110, 224, 0.1);
           border-radius: 4px;
           font-family: monospace;
           font-size: 11px;
-          color: #cccccc;
+          color: #526ee0;
           white-space: pre-wrap;
           max-height: 120px;
           overflow-y: auto;
@@ -442,11 +442,11 @@ const formatToolParameters = (parameters?: string): string => {
             .request-content {
               margin: 4px 0 0 0;
               padding: 8px;
-              background: rgba(0, 0, 0, 0.2);
+              background: rgba(82, 110, 224, 0.1);
               border-radius: 4px;
               font-family: monospace;
               font-size: 14px;
-              color: #cccccc;
+              color: #526ee0;
               white-space: pre-wrap;
               word-wrap: break-word;
               word-break: break-word;
@@ -534,14 +534,14 @@ const formatToolParameters = (parameters?: string): string => {
           .result-content, .error-content {
             margin: 0;
             padding: 8px;
-            background: rgba(0, 0, 0, 0.2);
+            background: rgba(82, 110, 224, 0.1);
             border-radius: 4px;
             font-family: monospace;
             font-size: 12px;
             white-space: pre-wrap;
             max-height: 150px;
             overflow-y: auto;
-            color: #cccccc;
+            color: #526ee0;
           }
           
           .error-content {
@@ -720,7 +720,7 @@ const formatToolParameters = (parameters?: string): string => {
                 }
                 
                 .progress-bar {
-                  background: rgba(0, 0, 0, 0.2);
+                  background: rgba(82, 110, 224, 0.1);
                   border-radius: 4px;
                   height: 4px;
                   overflow: hidden;
@@ -865,14 +865,14 @@ const formatToolParameters = (parameters?: string): string => {
                       .result-content, .error-content {
                         margin: 0;
                         padding: 6px;
-                        background: rgba(0, 0, 0, 0.2);
+                        background: rgba(82, 110, 224, 0.1);
                         border-radius: 3px;
                         font-family: monospace;
                         font-size: 10px;
                         white-space: pre-wrap;
                         max-height: 80px;
                         overflow-y: auto;
-                        color: #cccccc;
+                        color: #526ee0;
                         line-height: 1.3;
                       }
                     }
@@ -915,7 +915,7 @@ const formatToolParameters = (parameters?: string): string => {
                           font-size: 10px;
                           
                           &:hover {
-                            background: rgba(0, 0, 0, 0.2);
+                            background: rgba(82, 110, 224, 0.1);
                           }
                           
                           .step-number {

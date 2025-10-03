@@ -1213,7 +1213,7 @@ defineExpose({
 /* Read-only input styles */
 .readonly-input {
   background: rgba(255, 255, 255, 0.03) !important;
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: rgba(0, 0, 0, 0.8) !important;
   cursor: not-allowed !important;
   opacity: 0.8;
 }

@@ -298,7 +298,7 @@ const autoResizeTextarea = (event: Event) => {
 
 /* Visual Editor Styles */
 .visual-editor {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(82, 110, 224, 0.1);
   border-radius: 8px;
   padding: 16px;
   border: 1px solid rgba(0, 0, 0, 0.08);
@@ -589,7 +589,7 @@ const autoResizeTextarea = (event: Event) => {
 
 .btn-secondary {
   background: rgba(0, 0, 0, 0.03);
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .btn-add {

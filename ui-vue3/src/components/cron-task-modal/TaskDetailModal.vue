@@ -401,7 +401,7 @@ watch(
 
 .status-label {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .close-btn {
@@ -488,7 +488,7 @@ watch(
 .time-label {
   font-size: 14px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .time-value {
@@ -512,7 +512,7 @@ watch(
   transition: all 0.3s;
   background: rgba(0, 0, 0, 0.03);
   border: 1px solid rgba(0, 0, 0, 0.08);
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .template-btn.active {

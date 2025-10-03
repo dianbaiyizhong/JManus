@@ -506,7 +506,7 @@ const handleNestedStepSelected = (stepId: string) => {
       }
 
       .progress-bar {
-        background: rgba(0, 0, 0, 0.2);
+        background: rgba(82, 110, 224, 0.1);
         border-radius: 4px;
         height: 4px;
         overflow: hidden;
@@ -651,14 +651,14 @@ const handleNestedStepSelected = (stepId: string) => {
             .result-content, .error-content {
               margin: 0;
               padding: 6px;
-              background: rgba(0, 0, 0, 0.2);
+              background: rgba(82, 110, 224, 0.1);
               border-radius: 3px;
               font-family: monospace;
               font-size: 10px;
               white-space: pre-wrap;
               max-height: 80px;
               overflow-y: auto;
-              color: #cccccc;
+              color: #526ee0;
               line-height: 1.3;
             }
           }
@@ -701,7 +701,7 @@ const handleNestedStepSelected = (stepId: string) => {
                 font-size: 10px;
 
                 &:hover {
-                  background: rgba(0, 0, 0, 0.2);
+                  background: rgba(82, 110, 224, 0.1);
                 }
 
                 .step-number {

@@ -1038,7 +1038,7 @@ const getConnectionTypeIcon = (type: string) => {
   align-items: center;
   justify-content: center;
   padding: 60px 20px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .loading-spinner {
@@ -1193,7 +1193,7 @@ const getConnectionTypeIcon = (type: string) => {
 
 .server-connection-type {
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   display: flex;
   align-items: center;
   gap: 6px;
@@ -1307,7 +1307,7 @@ const getConnectionTypeIcon = (type: string) => {
   align-items: center;
   justify-content: center;
   padding: 60px 20px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .loading-icon {

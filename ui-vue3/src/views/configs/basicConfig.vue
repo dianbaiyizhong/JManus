@@ -871,7 +871,7 @@ onMounted(() => {
   align-items: center;
   justify-content: center;
   padding: 60px 20px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .loading-spinner {
@@ -1029,7 +1029,7 @@ onMounted(() => {
 
 .config-description {
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   margin: 6px 0;
   line-height: 1.4;
 }
@@ -1313,7 +1313,7 @@ onMounted(() => {
   background: rgba(0, 0, 0, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 4px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   padding: 6px 12px;
   margin-right: 12px;
   font-size: 14px;

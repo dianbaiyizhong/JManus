@@ -405,7 +405,7 @@ onUnmounted(() => {
   align-items: center;
   justify-content: center;
   padding: 40px 20px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   gap: 12px;
 }
 
@@ -458,7 +458,7 @@ onUnmounted(() => {
 
 .waiting-for-files p {
   margin: 0 0 16px 0;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   font-size: 14px;
   line-height: 1.5;
 }
@@ -557,7 +557,7 @@ onUnmounted(() => {
   align-items: center;
   justify-content: center;
   flex: 1;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   gap: 12px;
 }
 
@@ -588,7 +588,7 @@ onUnmounted(() => {
   align-items: center;
   justify-content: center;
   flex: 1;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   gap: 16px;
 }
 

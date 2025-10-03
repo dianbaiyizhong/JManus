@@ -112,7 +112,7 @@ const { formatTimestamp, formatFileSize } = useMessageFormatting()
         }
         
         .attachment-size {
-          color: rgba(255, 255, 255, 0.7);
+          color: rgba(0, 0, 0, 0.8);
           font-size: 11px;
         }
       }
@@ -121,7 +121,7 @@ const { formatTimestamp, formatFileSize } = useMessageFormatting()
     .message-timestamp {
       margin-top: 6px;
       font-size: 11px;
-      color: rgba(255, 255, 255, 0.7);
+      color: rgba(0, 0, 0, 0.8);
       text-align: right;
     }
   }

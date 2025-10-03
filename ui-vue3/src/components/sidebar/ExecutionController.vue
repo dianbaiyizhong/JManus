@@ -725,7 +725,7 @@ defineExpose({
 
 .internal-call-wrapper,
 .mcp-call-wrapper {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(82, 110, 224, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   padding: 12px;
@@ -790,7 +790,7 @@ defineExpose({
 }
 
 .tab-container {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(82, 110, 224, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   overflow: hidden;

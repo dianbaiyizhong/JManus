@@ -256,7 +256,7 @@ const selectOption = (option: { id: string }) => {
   padding: 10px 16px;
   background: none;
   border: none;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
   transition: all 0.2s ease;
   text-align: left;

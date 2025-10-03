@@ -420,7 +420,7 @@ watch(visible, (newVisible) => {
 }
 
 .summary-text {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   font-size: 13px;
 }
 
