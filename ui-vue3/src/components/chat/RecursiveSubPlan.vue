@@ -416,7 +416,7 @@ const handleNestedStepSelected = (stepId: string) => {
       .sub-plan-details {
         .sub-plan-title {
           font-weight: 600;
-          color: #ffffff;
+          color: #333333;
           font-size: 13px;
           margin-bottom: 2px;
           display: flex;
@@ -424,7 +424,7 @@ const handleNestedStepSelected = (stepId: string) => {
           gap: 6px;
 
           .nesting-level {
-            color: #888888;
+            color: #666666;
             font-size: 10px;
             font-weight: 400;
             background: rgba(136, 136, 136, 0.2);
@@ -535,7 +535,7 @@ const handleNestedStepSelected = (stepId: string) => {
       gap: 8px;
 
       .agent-step-item {
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(0, 0, 0, 0.08);
         border-radius: 6px;
         padding: 8px;
         background: rgba(0, 0, 0, 0.05);
@@ -584,7 +584,7 @@ const handleNestedStepSelected = (stepId: string) => {
           }
 
           .agent-name {
-            color: #ffffff;
+            color: #333333;
             font-size: 13px;
             font-weight: 500;
             flex: 1;
@@ -642,7 +642,7 @@ const handleNestedStepSelected = (stepId: string) => {
               }
 
               .result-label, .error-label {
-                color: #ffffff;
+                color: #333333;
                 font-size: 11px;
                 font-weight: 500;
               }
@@ -720,13 +720,13 @@ const handleNestedStepSelected = (stepId: string) => {
 
                 .step-arrow {
                   font-size: 10px;
-                  color: #888888;
+                  color: #666666;
                 }
               }
 
               .more-steps {
                 padding: 2px 6px;
-                color: #888888;
+                color: #666666;
                 font-size: 9px;
                 font-style: italic;
               }

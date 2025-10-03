@@ -84,18 +84,18 @@ const createEditor = () => {
       { token: 'delimiter', foreground: '#fbbf24' }
     ],
     colors: {
-      'editor.background': 'rgba(255, 255, 255, 0.05)',
+      'editor.background': 'rgba(0, 0, 0, 0.03)',
       'editor.foreground': '#f9fafb',
       'editor.lineHighlightBackground': 'rgba(255, 255, 255, 0.08)',
       'editor.selectionBackground': '#3b82f6',
       'editor.inactiveSelectionBackground': '#4b5563',
       'editorCursor.foreground': '#f9fafb',
       'editorWhitespace.foreground': '#6b7280',
-      'editorIndentGuide.background': 'rgba(255, 255, 255, 0.1)',
+      'editorIndentGuide.background': 'rgba(0, 0, 0, 0.08)',
       'editorIndentGuide.activeBackground': '#6b7280',
       'editorLineNumber.foreground': '#9ca3af',
       'editorLineNumber.activeForeground': '#f9fafb',
-      'editorGutter.background': 'rgba(255, 255, 255, 0.05)'
+      'editorGutter.background': 'rgba(0, 0, 0, 0.03)'
     }
   })
 
@@ -145,7 +145,7 @@ onUnmounted(() => {
   border: none;
   border-radius: 0;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
 }
 
 .editor-wrapper {
@@ -158,7 +158,7 @@ onUnmounted(() => {
 }
 
 :deep(.monaco-editor .margin) {
-  background-color: rgba(255, 255, 255, 0.05) !important;
+  background-color: rgba(0, 0, 0, 0.03) !important;
 }
 
 :deep(.monaco-editor .line-numbers) {

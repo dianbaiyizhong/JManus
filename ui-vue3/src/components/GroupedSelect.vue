@@ -189,8 +189,8 @@ onUnmounted(() => {
 .select-btn {
   width: 100%;
   padding: 12px 16px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   color: rgba(255, 255, 255, 0.9);
   cursor: pointer;
@@ -202,7 +202,7 @@ onUnmounted(() => {
 }
 
 .select-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -248,7 +248,7 @@ onUnmounted(() => {
   left: 0;
   right: 0;
   background: #1a1a1a;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
   z-index: 1000;
@@ -263,7 +263,7 @@ onUnmounted(() => {
   align-items: center;
   justify-content: space-between;
   padding: 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .dropdown-header h3 {
@@ -284,21 +284,21 @@ onUnmounted(() => {
 }
 
 .close-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   color: rgba(255, 255, 255, 0.9);
 }
 
 .search-container {
   position: relative;
   padding: 12px 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .search-input {
   width: 100%;
   padding: 8px 12px 8px 36px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 6px;
   color: rgba(255, 255, 255, 0.9);
   font-size: 14px;
@@ -308,7 +308,7 @@ onUnmounted(() => {
 
 .search-input:focus {
   border-color: #a8b3ff;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
 }
 
 .search-input::placeholder {
@@ -365,8 +365,8 @@ onUnmounted(() => {
   flex-direction: column;
   align-items: flex-start;
   padding: 12px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 6px;
   color: rgba(255, 255, 255, 0.9);
   cursor: pointer;
@@ -376,7 +376,7 @@ onUnmounted(() => {
 }
 
 .model-option:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
 }
 

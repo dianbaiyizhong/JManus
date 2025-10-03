@@ -802,7 +802,7 @@ const newChat = () => {
 .direct-chat {
   height: 100vh;
   width: 100%;
-  background: #0a0a0a;
+  background: #ffffff;
   display: flex;
 }
 
@@ -872,7 +872,7 @@ const newChat = () => {
     margin: 0;
     font-size: 18px;
     font-weight: 600;
-    color: #ffffff;
+    color: #333333;
   }
 }
 
@@ -892,10 +892,10 @@ const newChat = () => {
 
 .back-button {
   padding: 8px 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 6px;
-  background: rgba(255, 255, 255, 0.05);
-  color: #ffffff;
+  background: rgba(0, 0, 0, 0.03);
+  color: #333333;
   cursor: pointer;
   transition: all 0.2s ease;
   display: flex;
@@ -904,7 +904,7 @@ const newChat = () => {
   font-size: 14px;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.08);
     border-color: rgba(255, 255, 255, 0.2);
   }
 }
@@ -915,15 +915,15 @@ const newChat = () => {
   justify-content: center;
   width: 32px;
   height: 32px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 6px;
-  background: rgba(255, 255, 255, 0.05);
-  color: #ffffff;
+  background: rgba(0, 0, 0, 0.03);
+  color: #333333;
   cursor: pointer;
   transition: all 0.2s ease;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.08);
     border-color: rgba(255, 255, 255, 0.2);
   }
 }
@@ -934,15 +934,15 @@ const newChat = () => {
   justify-content: center;
   width: 32px;
   height: 32px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 6px;
-  background: rgba(255, 255, 255, 0.05);
-  color: #ffffff;
+  background: rgba(0, 0, 0, 0.03);
+  color: #333333;
   cursor: pointer;
   transition: all 0.2s ease;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.08);
     border-color: rgba(255, 255, 255, 0.2);
   }
 }
@@ -952,7 +952,7 @@ const newChat = () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #888888;
+  color: #666666;
   font-size: 16px;
   padding: 50px;
 }

@@ -137,13 +137,13 @@ const handleStepSelected = (stepId: string) => {
       
       .thinking-icon {
         font-size: 16px;
-        color: #ffffff;
+        color: #333333;
       }
     }
     
     .thinking-label {
       font-weight: 600;
-      color: #ffffff;
+      color: #333333;
       font-size: 14px;
     }
   }
@@ -160,7 +160,7 @@ const handleStepSelected = (stepId: string) => {
       background: rgba(102, 126, 234, 0.1);
       border-radius: 8px;
       font-size: 13px;
-      color: #ffffff;
+      color: #333333;
       
       .thinking-icon {
         font-size: 14px;

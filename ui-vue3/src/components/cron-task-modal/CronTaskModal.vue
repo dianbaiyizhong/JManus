@@ -530,7 +530,7 @@ watch(() => props.modelValue, (newValue) => {
 
 .modal-container {
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.15));
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 16px;
   width: 90%;
   max-width: 800px;
@@ -544,7 +544,7 @@ watch(() => props.modelValue, (newValue) => {
   justify-content: space-between;
   align-items: center;
   padding: 20px 24px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 
@@ -637,8 +637,8 @@ watch(() => props.modelValue, (newValue) => {
 }
 
 .task-item {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 12px;
   padding: 24px;
   display: flex;
@@ -733,13 +733,13 @@ watch(() => props.modelValue, (newValue) => {
   padding: 6px 10px;
   background: rgba(255, 255, 255, 0.03);
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.03);
   transition: all 0.2s ease;
 }
 
 .task-time:hover {
   background: rgba(255, 255, 255, 0.06);
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(0, 0, 0, 0.08);
 }
 
 .cron-readable {
@@ -825,7 +825,7 @@ watch(() => props.modelValue, (newValue) => {
   top: 100%;
   right: 0;
   background: rgba(30, 30, 30, 0.95);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(8px);
@@ -858,7 +858,7 @@ watch(() => props.modelValue, (newValue) => {
 }
 
 .dropdown-item:hover:not(:disabled) {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   color: rgba(255, 255, 255, 0.95);
 }
 
@@ -896,7 +896,7 @@ watch(() => props.modelValue, (newValue) => {
 /* Confirmation modal styles */
 .confirm-modal {
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.15));
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 16px;
   width: 90%;
   max-width: 480px;
@@ -909,7 +909,7 @@ watch(() => props.modelValue, (newValue) => {
   align-items: center;
   gap: 12px;
   padding: 24px 24px 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .warning-icon {
@@ -1007,8 +1007,8 @@ watch(() => props.modelValue, (newValue) => {
   gap: 16px;
   padding: 16px;
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   cursor: pointer;
   transition: all 0.3s;
   text-align: left;

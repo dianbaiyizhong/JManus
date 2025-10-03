@@ -63,7 +63,7 @@ const handleClick = () => {
 
 
   &:hover {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.03);
     border-color: rgba(102, 126, 234, 0.3);
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
@@ -83,13 +83,13 @@ const handleClick = () => {
     h3 {
       font-size: 16px;
       font-weight: 600;
-      color: #ffffff;
+      color: #333333;
       margin: 0 0 8px 0;
     }
 
     p {
       font-size: 14px;
-      color: #888888;
+      color: #666666;
       margin: 0;
       line-height: 1.4;
     }

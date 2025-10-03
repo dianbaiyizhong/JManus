@@ -68,7 +68,7 @@ watch(() => props.modelValue, (newValue) => {
 
 .tab-header {
   display: flex;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   margin-bottom: 16px;
 }
 
@@ -86,7 +86,7 @@ watch(() => props.modelValue, (newValue) => {
 
 .tab-button:hover {
   color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
 .tab-button.active {
@@ -98,7 +98,7 @@ watch(() => props.modelValue, (newValue) => {
 .tab-content {
   min-height: 200px;
   background-color: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   padding: 16px;
 }

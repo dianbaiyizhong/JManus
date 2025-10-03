@@ -573,7 +573,7 @@ defineExpose({
 <style scoped>
 .config-section {
   margin-bottom: 16px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   padding: 12px;
 }
@@ -726,7 +726,7 @@ defineExpose({
 .internal-call-wrapper,
 .mcp-call-wrapper {
   background: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   padding: 12px;
 }
@@ -775,7 +775,7 @@ defineExpose({
 
     .example-code {
       background: rgba(0, 0, 0, 0.4);
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(0, 0, 0, 0.08);
       border-radius: 4px;
       padding: 8px;
       color: #e0e0e0;
@@ -791,7 +791,7 @@ defineExpose({
 
 .tab-container {
   background: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   overflow: hidden;
 }
@@ -799,7 +799,7 @@ defineExpose({
 .tab-header {
   display: flex;
   background: rgba(0, 0, 0, 0.3);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .tab-button {
@@ -812,7 +812,7 @@ defineExpose({
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
 
   &:last-child {
     border-right: none;
@@ -883,7 +883,7 @@ defineExpose({
 
     .example-code {
       background: rgba(0, 0, 0, 0.4);
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(0, 0, 0, 0.08);
       border-radius: 4px;
       padding: 8px;
       color: #e0e0e0;
@@ -922,7 +922,7 @@ defineExpose({
 
   &.publish-mcp-btn {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: #ffffff;
+    color: #333333;
     border: none;
 
     &:hover:not(:disabled) {

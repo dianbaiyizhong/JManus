@@ -275,7 +275,7 @@ const autoResizeTextarea = (event: Event) => {
 <style scoped>
 .config-section {
   margin-bottom: 16px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   padding: 12px;
 }
@@ -301,13 +301,13 @@ const autoResizeTextarea = (event: Event) => {
   background: rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   padding: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .plan-basic-info {
   margin-bottom: 20px;
   padding-bottom: 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .form-row {
@@ -385,7 +385,7 @@ const autoResizeTextarea = (event: Event) => {
 .plan-id-section {
   margin-bottom: 20px;
   padding-bottom: 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .steps-header {
@@ -404,7 +404,7 @@ const autoResizeTextarea = (event: Event) => {
 .agent-count-badge {
   font-size: 10px;
   color: rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   padding: 2px 6px;
   border-radius: 4px;
 }
@@ -442,7 +442,7 @@ const autoResizeTextarea = (event: Event) => {
 
 .step-item {
   background: rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   overflow: hidden;
 }
@@ -453,7 +453,7 @@ const autoResizeTextarea = (event: Event) => {
   justify-content: space-between;
   padding: 9px 16px;
   background: rgba(102, 126, 234, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .step-number {
@@ -512,8 +512,8 @@ const autoResizeTextarea = (event: Event) => {
   align-items: center;
   justify-content: space-between;
   padding: 8px 12px;
-  background: rgba(255, 255, 255, 0.05);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .json-code {
@@ -533,7 +533,7 @@ const autoResizeTextarea = (event: Event) => {
   justify-content: space-between;
   align-items: center;
   padding-top: 12px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 /* Button Styles */
@@ -549,7 +549,7 @@ const autoResizeTextarea = (event: Event) => {
   justify-content: center;
   gap: 6px;
   transition: all 0.2s ease;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -588,7 +588,7 @@ const autoResizeTextarea = (event: Event) => {
 }
 
 .btn-secondary {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   color: rgba(255, 255, 255, 0.7);
 }
 

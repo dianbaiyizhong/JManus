@@ -368,9 +368,9 @@ watch(visible, (newVisible) => {
   gap: 12px;
   margin-bottom: 16px;
   padding: 12px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .search-container {
@@ -382,7 +382,7 @@ watch(visible, (newVisible) => {
   padding: 8px 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 6px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   color: rgba(255, 255, 255, 0.9);
   font-size: 14px;
   transition: all 0.3s;
@@ -391,7 +391,7 @@ watch(visible, (newVisible) => {
 .search-input:focus {
   outline: none;
   border-color: rgba(102, 126, 234, 0.5);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
 }
 
 .search-input::placeholder {
@@ -407,7 +407,7 @@ watch(visible, (newVisible) => {
   padding: 8px 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 6px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   color: rgba(255, 255, 255, 0.9);
   font-size: 14px;
   cursor: pointer;
@@ -416,7 +416,7 @@ watch(visible, (newVisible) => {
 .tool-summary {
   margin-bottom: 16px;
   padding: 8px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .summary-text {
@@ -426,7 +426,7 @@ watch(visible, (newVisible) => {
 
 
 .tool-group {
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 8px;
@@ -437,10 +437,10 @@ watch(visible, (newVisible) => {
   justify-content: space-between;
   align-items: center;
   padding: 12px 16px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   cursor: pointer;
   transition: all 0.3s;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .tool-group-header:hover {
@@ -511,7 +511,7 @@ watch(visible, (newVisible) => {
   justify-content: space-between;
   align-items: center;
   padding: 12px 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
   transition: background-color 0.3s;
 }
 

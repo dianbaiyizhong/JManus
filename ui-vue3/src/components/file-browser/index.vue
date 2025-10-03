@@ -293,7 +293,7 @@ onUnmounted(() => {
   height: 100%;
   background: rgba(255, 255, 255, 0.02);
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   overflow: hidden;
 }
 
@@ -302,13 +302,13 @@ onUnmounted(() => {
   justify-content: space-between;
   align-items: center;
   padding: 16px 20px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  background: rgba(0, 0, 0, 0.03);
 }
 
 .file-browser-header h3 {
   margin: 0;
-  color: #ffffff;
+  color: #333333;
   font-size: 16px;
   font-weight: 600;
 }
@@ -327,7 +327,7 @@ onUnmounted(() => {
   background: rgba(255, 255, 255, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 8px;
-  color: #ffffff;
+  color: #333333;
   cursor: pointer;
   transition: all 0.2s ease;
   font-size: 18px;
@@ -386,7 +386,7 @@ onUnmounted(() => {
 
 .file-tree-panel {
   flex: 0 0 300px;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
   overflow-y: auto;
 }
 
@@ -451,7 +451,7 @@ onUnmounted(() => {
 
 .waiting-for-files h3 {
   margin: 0 0 8px 0;
-  color: #ffffff;
+  color: #333333;
   font-size: 18px;
   font-weight: 600;
 }
@@ -493,15 +493,15 @@ onUnmounted(() => {
   justify-content: space-between;
   align-items: center;
   padding: 16px 20px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  background: rgba(0, 0, 0, 0.03);
 }
 
 .file-info {
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #ffffff;
+  color: #333333;
 }
 
 .file-info .iconify {
@@ -529,10 +529,10 @@ onUnmounted(() => {
   justify-content: center;
   width: 32px;
   height: 32px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 6px;
-  color: #ffffff;
+  color: #333333;
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -577,7 +577,7 @@ onUnmounted(() => {
   font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
   font-size: 13px;
   line-height: 1.6;
-  color: #ffffff;
+  color: #333333;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
@@ -632,7 +632,7 @@ onUnmounted(() => {
 
 .file-tree-panel::-webkit-scrollbar-track,
 .text-content::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
 }
 
 .file-tree-panel::-webkit-scrollbar-thumb,

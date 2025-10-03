@@ -302,7 +302,7 @@ const selectPlan = async (plan: any) => {
 .welcome-container {
   flex: 1;
   height: 100vh;
-  background: #0a0a0a;
+  background: #ffffff;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -408,7 +408,7 @@ const selectPlan = async (plan: any) => {
   }
 
   .tagline {
-    color: #888888;
+    color: #666666;
     font-size: 16px;
     font-weight: 400;
   }
@@ -437,13 +437,13 @@ const selectPlan = async (plan: any) => {
 .welcome-title {
   font-size: 32px;
   font-weight: 600;
-  color: #ffffff;
+  color: #333333;
   margin: 0 0 16px 0;
 }
 
 .welcome-subtitle {
   font-size: 18px;
-  color: #888888;
+  color: #666666;
   margin: 0;
   line-height: 1.5;
 }
@@ -454,8 +454,8 @@ const selectPlan = async (plan: any) => {
 
 .input-container {
   position: relative;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 16px;
   padding: 20px;
   backdrop-filter: blur(20px);
@@ -473,7 +473,7 @@ const selectPlan = async (plan: any) => {
   background: transparent;
   border: none;
   outline: none;
-  color: #ffffff;
+  color: #333333;
   font-size: 16px;
   line-height: 1.5;
   resize: none;
@@ -495,7 +495,7 @@ const selectPlan = async (plan: any) => {
   border: none;
   border-radius: 8px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: #ffffff;
+  color: #333333;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -570,7 +570,7 @@ const selectPlan = async (plan: any) => {
 //   gap: 16px;
 
 //   &:hover {
-//     background: rgba(255, 255, 255, 0.05);
+//     background: rgba(0, 0, 0, 0.03);
 //     border-color: rgba(102, 126, 234, 0.3);
 //     transform: translateY(-2px);
 //     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
@@ -588,13 +588,13 @@ const selectPlan = async (plan: any) => {
 //   h3 {
 //     font-size: 16px;
 //     font-weight: 600;
-//     color: #ffffff;
+//     color: #333333;
 //     margin: 0 0 8px 0;
 //   }
 
 //   p {
 //     font-size: 14px;
-//     color: #888888;
+//     color: #666666;
 //     margin: 0;
 //     line-height: 1.4;
 //   }
@@ -604,7 +604,7 @@ const selectPlan = async (plan: any) => {
 .config-view {
   flex: 1;
   height: 100vh;
-  background: #0a0a0a;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -614,8 +614,8 @@ const selectPlan = async (plan: any) => {
   display: flex;
   align-items: center;
   padding: 16px 24px;
-  background: rgba(255, 255, 255, 0.05);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   gap: 16px;
 
   .back-button {
@@ -623,10 +623,10 @@ const selectPlan = async (plan: any) => {
     align-items: center;
     gap: 8px;
     padding: 8px 16px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 8px;
-    color: #ffffff;
+    color: #333333;
     font-size: 14px;
     cursor: pointer;
     transition: all 0.2s ease;
@@ -641,7 +641,7 @@ const selectPlan = async (plan: any) => {
   .config-title {
     font-size: 20px;
     font-weight: 600;
-    color: #ffffff;
+    color: #333333;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -655,7 +655,7 @@ const selectPlan = async (plan: any) => {
   border: none;
   border-radius: 8px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: #ffffff;
+  color: #333333;
   font-size: 16px;
   cursor: pointer;
   transition: all 0.2s ease;

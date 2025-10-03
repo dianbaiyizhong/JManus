@@ -648,7 +648,7 @@ watch(
   padding: 8px 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 4px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   color: white;
   font-size: 14px;
   outline: none;
@@ -761,7 +761,7 @@ watch(
 
 .prompt-card {
   background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 12px;
   padding: 16px;
   margin-bottom: 12px;
@@ -769,7 +769,7 @@ watch(
   transition: all 0.3s ease;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.03);
     border-color: rgba(255, 255, 255, 0.2);
   }
 
@@ -841,7 +841,7 @@ watch(
   font-size: 14px;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.03);
     border-color: rgba(255, 255, 255, 0.3);
     color: #fff;
   }
@@ -877,7 +877,7 @@ watch(
   align-items: center;
   margin-bottom: 24px;
   padding-bottom: 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .detail-header h3 {
@@ -908,8 +908,8 @@ watch(
   textarea {
     width: 100%;
     padding: 12px 16px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.08);
     border-radius: 8px;
     color: #fff;
     font-size: 14px;
@@ -929,7 +929,7 @@ watch(
       cursor: not-allowed;
       background: rgba(255, 255, 255, 0.03);
       color: rgba(255, 255, 255);
-      border-color: rgba(255, 255, 255, 0.05);
+      border-color: rgba(0, 0, 0, 0.03);
       opacity: 0.6;
     }
   }
@@ -962,8 +962,8 @@ watch(
   align-items: center;
   gap: 6px;
   padding: 10px 16px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 6px;
   color: #fff;
   cursor: pointer;
@@ -971,7 +971,7 @@ watch(
   font-size: 14px;
 
   &:hover:not(:disabled) {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.08);
     border-color: rgba(255, 255, 255, 0.2);
   }
 
@@ -1066,12 +1066,12 @@ watch(
 }
 
 .cancel-btn {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   color: #fff;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.08);
   }
 }
 

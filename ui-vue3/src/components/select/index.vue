@@ -225,7 +225,7 @@ const selectOption = (option: { id: string }) => {
   border-bottom: 1px solid rgba(102, 126, 234, 0.2);
   font-size: 14px;
   font-weight: 600;
-  color: #ffffff;
+  color: #333333;
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(102, 126, 234, 0.05));
 }
 
@@ -240,7 +240,7 @@ const selectOption = (option: { id: string }) => {
 }
 
 .close-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -263,7 +263,7 @@ const selectOption = (option: { id: string }) => {
 }
 
 .select-option:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   color: rgba(255, 255, 255, 0.9);
 }
 

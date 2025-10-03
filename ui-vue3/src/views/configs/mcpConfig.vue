@@ -980,7 +980,7 @@ const getConnectionTypeIcon = (type: string) => {
 .stat-item {
   display: flex;
   align-items: center;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 12px;
@@ -1002,8 +1002,8 @@ const getConnectionTypeIcon = (type: string) => {
 }
 
 .search-input {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   padding: 6px 12px 6px 32px;
   color: rgba(255, 255, 255, 0.9);
@@ -1094,8 +1094,8 @@ const getConnectionTypeIcon = (type: string) => {
 }
 
 .search-input {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   padding: 6px 12px 6px 32px;
   color: rgba(255, 255, 255, 0.9);
@@ -1135,7 +1135,7 @@ const getConnectionTypeIcon = (type: string) => {
 }
 
 .servers-container::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   border-radius: 3px;
 }
 
@@ -1150,7 +1150,7 @@ const getConnectionTypeIcon = (type: string) => {
 
 .server-card {
   background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 12px;
   padding: 16px;
   margin-bottom: 12px;
@@ -1162,7 +1162,7 @@ const getConnectionTypeIcon = (type: string) => {
 }
 
 .server-card:hover:not(.active) {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   border-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -1236,7 +1236,7 @@ const getConnectionTypeIcon = (type: string) => {
 .server-config-summary {
   margin-top: 12px;
   padding-top: 12px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .config-item {
@@ -1261,8 +1261,8 @@ const getConnectionTypeIcon = (type: string) => {
 }
 
 .server-config-preview {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 6px;
   padding: 8px 12px;
   max-height: 120px; /* Reduce max height */
@@ -1351,7 +1351,7 @@ const getConnectionTypeIcon = (type: string) => {
   font-size: 14px;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.03);
     border-color: rgba(255, 255, 255, 0.3);
     color: #fff;
   }
@@ -1418,7 +1418,7 @@ const getConnectionTypeIcon = (type: string) => {
   align-items: center;
   margin-bottom: 32px;
   padding-bottom: 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .detail-header h3 {
@@ -1445,7 +1445,7 @@ const getConnectionTypeIcon = (type: string) => {
 }
 
 .detail-content::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   border-radius: 3px;
 }
 
@@ -1463,8 +1463,8 @@ const getConnectionTypeIcon = (type: string) => {
   align-items: center;
   gap: 6px;
   padding: 10px 16px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 6px;
   color: #fff;
   cursor: pointer;
@@ -1472,7 +1472,7 @@ const getConnectionTypeIcon = (type: string) => {
   font-size: 14px;
 
   &:hover:not(:disabled) {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.08);
     border-color: rgba(255, 255, 255, 0.2);
   }
 
@@ -1589,10 +1589,10 @@ const getConnectionTypeIcon = (type: string) => {
 
 .json-editor-wrapper {
   position: relative;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   min-height: 300px;
 }
 
@@ -1603,8 +1603,8 @@ const getConnectionTypeIcon = (type: string) => {
 
 .config-textarea {
   width: 100%;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   padding: 12px;
   color: rgba(255, 255, 255, 0.9);
@@ -1627,8 +1627,8 @@ const getConnectionTypeIcon = (type: string) => {
 
 .config-input {
   width: 100%;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   padding: 12px;
   color: rgba(255, 255, 255, 0.9);

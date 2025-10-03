@@ -888,7 +888,7 @@ defineExpose({
   font-size: 16px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.9);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   padding-bottom: 8px;
 }
 
@@ -922,8 +922,8 @@ defineExpose({
 .form-item textarea {
   width: 100%;
   padding: 12px 16px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   color: #fff;
   font-size: 14px;
@@ -979,14 +979,14 @@ defineExpose({
 .parameter-table table {
   width: 100%;
   border-collapse: collapse;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   overflow: hidden;
   min-width: 600px;
 }
 
 .parameter-table th {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   color: rgba(255, 255, 255, 0.9);
   font-weight: 500;
   padding: 12px;
@@ -997,14 +997,14 @@ defineExpose({
 
 .parameter-table td {
   padding: 8px 12px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .parameter-input {
   width: 100%;
   padding: 8px 12px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 6px;
   color: #fff;
   font-size: 14px;
@@ -1021,7 +1021,7 @@ defineExpose({
   background: rgba(255, 255, 255, 0.02) !important;
   color: rgba(255, 255, 255, 0.6) !important;
   cursor: not-allowed;
-  border-color: rgba(255, 255, 255, 0.05) !important;
+  border-color: rgba(0, 0, 0, 0.03) !important;
 }
 
 
@@ -1036,8 +1036,8 @@ defineExpose({
 .dropdown-input {
   width: 100%;
   padding: 12px 16px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   color: #fff;
   font-size: 14px;
@@ -1098,8 +1098,8 @@ defineExpose({
   top: 100%;
   left: 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   overflow: hidden;
   max-height: 200px;
@@ -1114,7 +1114,7 @@ defineExpose({
   padding: 12px 16px;
   cursor: pointer;
   transition: all 0.2s ease;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
   display: flex;
   align-items: center;
   gap: 8px;
@@ -1164,8 +1164,8 @@ defineExpose({
   align-items: center;
   gap: 6px;
   padding: 10px 16px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 6px;
   color: #fff;
   cursor: pointer;
@@ -1174,7 +1174,7 @@ defineExpose({
 }
 
 .action-btn:hover:not(:disabled) {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -1388,7 +1388,7 @@ defineExpose({
 }
 
 .close-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -1516,7 +1516,7 @@ defineExpose({
   gap: 8px;
   padding: 16px;
   background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
 }
 
@@ -1595,8 +1595,8 @@ defineExpose({
   align-items: center;
   justify-content: space-between;
   padding: 12px 16px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   color: #fff;
   cursor: pointer;

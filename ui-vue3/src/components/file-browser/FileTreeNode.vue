@@ -256,7 +256,7 @@ onUnmounted(() => {
 }
 
 .expand-icon:hover {
-  color: #ffffff;
+  color: #333333;
 }
 
 .chevron-icon {
@@ -279,7 +279,7 @@ onUnmounted(() => {
 
 .node-name {
   flex: 1;
-  color: #ffffff;
+  color: #333333;
   font-size: 13px;
   white-space: nowrap;
   overflow: hidden;
@@ -309,7 +309,7 @@ onUnmounted(() => {
   justify-content: center;
   width: 20px;
   height: 20px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   border: none;
   border-radius: 4px;
   color: rgba(255, 255, 255, 0.7);
@@ -319,7 +319,7 @@ onUnmounted(() => {
 
 .action-btn:hover {
   background: rgba(255, 255, 255, 0.2);
-  color: #ffffff;
+  color: #333333;
 }
 
 .action-btn .iconify {
@@ -353,7 +353,7 @@ onUnmounted(() => {
 }
 
 .context-menu-item:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
 }
 
 .context-menu-item .iconify {
@@ -363,13 +363,13 @@ onUnmounted(() => {
 
 .context-menu-divider {
   height: 1px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   margin: 4px 0;
 }
 
 /* Directory specific styles */
 .node-content.is-directory .node-name {
-  color: #ffffff;
+  color: #333333;
   font-weight: 500;
 }
 

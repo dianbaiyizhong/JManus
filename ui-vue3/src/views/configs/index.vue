@@ -149,7 +149,7 @@ const handleNavClick = (categoryKey: string) => {
   justify-content: space-between;
   align-items: center;
   padding: 20px 20px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .header-actions {
@@ -181,7 +181,7 @@ const handleNavClick = (categoryKey: string) => {
 .config-nav {
   width: 242px;
   padding: 20px;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .nav-item {
@@ -196,7 +196,7 @@ const handleNavClick = (categoryKey: string) => {
 }
 
 .nav-item:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
 }
 
 .nav-item.active {
@@ -215,8 +215,8 @@ const handleNavClick = (categoryKey: string) => {
   align-items: center;
   gap: 6px;
   padding: 8px 16px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 6px;
   color: #fff;
   cursor: pointer;
@@ -224,6 +224,6 @@ const handleNavClick = (categoryKey: string) => {
 }
 
 .action-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
 }
 </style>

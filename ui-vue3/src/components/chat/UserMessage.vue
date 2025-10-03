@@ -71,7 +71,7 @@ const { formatTimestamp, formatFileSize } = useMessageFormatting()
   .user-content {
     max-width: 70%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: #ffffff;
+    color: #333333;
     padding: 12px 16px;
     border-radius: 18px 18px 4px 18px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -92,7 +92,7 @@ const { formatTimestamp, formatFileSize } = useMessageFormatting()
         align-items: center;
         gap: 6px;
         padding: 6px 8px;
-        background: rgba(255, 255, 255, 0.1);
+        background: rgba(0, 0, 0, 0.08);
         border-radius: 8px;
         margin-bottom: 4px;
         font-size: 12px;
@@ -108,7 +108,7 @@ const { formatTimestamp, formatFileSize } = useMessageFormatting()
         
         .attachment-name {
           flex: 1;
-          color: #ffffff;
+          color: #333333;
         }
         
         .attachment-size {

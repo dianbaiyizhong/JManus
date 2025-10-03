@@ -652,8 +652,8 @@ defineExpose({
 .sidebar-wrapper {
   position: relative;
   height: 100vh;
-  background: rgba(255, 255, 255, 0.05);
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
   transition: width 0.1s ease;
   overflow: hidden;
   display: flex;
@@ -704,7 +704,7 @@ defineExpose({
     display: flex;
     margin-bottom: 16px;
     padding-right: 12px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.03);
     border-radius: 8px;
     padding: 4px;
 
@@ -725,7 +725,7 @@ defineExpose({
       transition: all 0.2s ease;
 
       &:hover:not(:disabled) {
-        background: rgba(255, 255, 255, 0.1);
+        background: rgba(0, 0, 0, 0.08);
         color: rgba(255, 255, 255, 0.9);
       }
 
@@ -763,7 +763,7 @@ defineExpose({
         justify-content: space-between;
         margin-bottom: 16px;
         padding: 12px;
-        background: rgba(255, 255, 255, 0.05);
+        background: rgba(0, 0, 0, 0.03);
         border-radius: 8px;
 
         .template-info {
@@ -800,7 +800,7 @@ defineExpose({
           transition: all 0.2s ease;
 
           &:hover {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(0, 0, 0, 0.08);
             color: white;
           }
         }
@@ -906,7 +906,7 @@ defineExpose({
 
       .retry-btn {
         padding: 8px 16px;
-        background: rgba(255, 255, 255, 0.1);
+        background: rgba(0, 0, 0, 0.08);
         border: 1px solid rgba(255, 255, 255, 0.2);
         border-radius: 4px;
         color: white;
@@ -925,15 +925,15 @@ defineExpose({
       align-items: flex-start;
       padding: 12px;
       margin-bottom: 8px;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(0, 0, 0, 0.03);
+      border: 1px solid rgba(0, 0, 0, 0.08);
       border-radius: 8px;
       cursor: pointer;
       transition: all 0.2s ease;
       position: relative;
 
       &:hover {
-        background: rgba(255, 255, 255, 0.1);
+        background: rgba(0, 0, 0, 0.08);
         border-color: rgba(255, 255, 255, 0.2);
         transform: translateY(-1px);
       }

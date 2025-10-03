@@ -277,7 +277,7 @@ defineExpose({
   user-select: none;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.08);
     color: #007acc;
   }
 
@@ -297,9 +297,9 @@ defineExpose({
   align-items: center;
   gap: 8px;
   padding: 6px 8px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   border-radius: 6px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   transition: all 0.2s ease;
 
   &:hover {
@@ -317,7 +317,7 @@ defineExpose({
 .file-name {
   flex: 1;
   font-size: 13px;
-  color: #ffffff;
+  color: #333333;
   font-weight: 500;
   overflow: hidden;
   text-overflow: ellipsis;

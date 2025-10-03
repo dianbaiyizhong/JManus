@@ -275,7 +275,7 @@ const formatToolParameters = (parameters?: string): string => {
         margin: 0;
         font-size: 16px;
         font-weight: 600;
-        color: #ffffff;
+        color: #333333;
       }
       
       .plan-status-badge {
@@ -329,7 +329,7 @@ const formatToolParameters = (parameters?: string): string => {
         }
         
         .tool-name {
-          color: #ffffff;
+          color: #333333;
           font-weight: 600;
           font-size: 14px;
         }
@@ -365,14 +365,14 @@ const formatToolParameters = (parameters?: string): string => {
       margin: 0 0 16px 0;
       font-size: 14px;
       font-weight: 600;
-      color: #ffffff;
+      color: #333333;
       padding-bottom: 8px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     }
     
     .agent-execution-item {
       margin-bottom: 16px;
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(0, 0, 0, 0.08);
       border-radius: 8px;
       overflow: hidden;
       transition: all 0.2s ease;
@@ -404,7 +404,7 @@ const formatToolParameters = (parameters?: string): string => {
         transition: background 0.2s ease;
         
         &:hover {
-          background: rgba(255, 255, 255, 0.05);
+          background: rgba(0, 0, 0, 0.03);
         }
         
         .agent-info {
@@ -432,7 +432,7 @@ const formatToolParameters = (parameters?: string): string => {
           .agent-details {
             .agent-name {
               font-weight: 600;
-              color: #ffffff;
+              color: #333333;
               font-size: 14px;
               margin-bottom: 2px;
             }
@@ -496,7 +496,7 @@ const formatToolParameters = (parameters?: string): string => {
       .agent-execution-info {
         padding: 16px;
         background: rgba(0, 0, 0, 0.1);
-        border-top: 1px solid rgba(255, 255, 255, 0.05);
+        border-top: 1px solid rgba(0, 0, 0, 0.03);
         margin-bottom: 16px;
         
         .agent-result, .agent-error {
@@ -525,7 +525,7 @@ const formatToolParameters = (parameters?: string): string => {
             }
             
             .result-label, .error-label {
-              color: #ffffff;
+              color: #333333;
               font-size: 13px;
               font-weight: 500;
             }
@@ -554,7 +554,7 @@ const formatToolParameters = (parameters?: string): string => {
       .sub-plans-container {
         padding: 16px;
         background: rgba(0, 0, 0, 0.1);
-        border-top: 1px solid rgba(255, 255, 255, 0.05);
+        border-top: 1px solid rgba(0, 0, 0, 0.03);
         
         .sub-plans-header {
           display: flex;
@@ -568,7 +568,7 @@ const formatToolParameters = (parameters?: string): string => {
           }
           
           .sub-plans-title {
-            color: #ffffff;
+            color: #333333;
             font-weight: 600;
             font-size: 14px;
           }
@@ -642,7 +642,7 @@ const formatToolParameters = (parameters?: string): string => {
                 .sub-plan-details {
                   .sub-plan-title {
                     font-weight: 600;
-                    color: #ffffff;
+                    color: #333333;
                     font-size: 13px;
                     margin-bottom: 2px;
                   }
@@ -749,7 +749,7 @@ const formatToolParameters = (parameters?: string): string => {
                 gap: 8px;
                 
                 .agent-step-item {
-                  border: 1px solid rgba(255, 255, 255, 0.1);
+                  border: 1px solid rgba(0, 0, 0, 0.08);
                   border-radius: 6px;
                   padding: 8px;
                   background: rgba(0, 0, 0, 0.05);
@@ -798,7 +798,7 @@ const formatToolParameters = (parameters?: string): string => {
                     }
                     
                     .agent-name {
-                      color: #ffffff;
+                      color: #333333;
                       font-size: 13px;
                       font-weight: 500;
                       flex: 1;
@@ -856,7 +856,7 @@ const formatToolParameters = (parameters?: string): string => {
                         }
                         
                         .result-label, .error-label {
-                          color: #ffffff;
+                          color: #333333;
                           font-size: 11px;
                           font-weight: 500;
                         }
@@ -934,13 +934,13 @@ const formatToolParameters = (parameters?: string): string => {
                           
                           .step-arrow {
                             font-size: 10px;
-                            color: #888888;
+                            color: #666666;
                           }
                         }
                         
                         .more-steps {
                           padding: 2px 6px;
-                          color: #888888;
+                          color: #666666;
                           font-size: 9px;
                           font-style: italic;
                         }

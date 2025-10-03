@@ -899,12 +899,12 @@ onMounted(() => {
   background: rgba(255, 255, 255, 0.03);
   border-radius: 12px;
   padding: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
 }
 
 .config-group:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   border-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -913,7 +913,7 @@ onMounted(() => {
   align-items: center;
   margin-bottom: 20px;
   padding-bottom: 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .group-icon {
@@ -925,7 +925,7 @@ onMounted(() => {
 .group-divider {
   flex: 1;
   height: 1px;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, transparent 100%);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.08) 0%, transparent 100%);
   margin-left: 16px;
 }
 
@@ -1011,7 +1011,7 @@ onMounted(() => {
   color: rgba(255, 255, 255, 0.5);
   margin-bottom: 6px;
   font-family: monospace;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   padding: 2px 6px;
   border-radius: 4px;
   max-width: 100%;
@@ -1074,7 +1074,7 @@ onMounted(() => {
 .range-info {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   padding: 3px 8px;
   border-radius: 4px;
   display: inline-block;
@@ -1095,8 +1095,8 @@ onMounted(() => {
 /* Enhance the input box style */
 .config-input {
   width: 100%;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   padding: 8px 12px;
   color: rgba(255, 255, 255, 0.9);
@@ -1176,7 +1176,7 @@ onMounted(() => {
 /* Subgroup style */
 .sub-group {
   margin-bottom: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.02);
@@ -1187,7 +1187,7 @@ onMounted(() => {
   justify-content: space-between;
   align-items: center;
   padding: 12px 16px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   cursor: pointer;
   user-select: none;
   transition: all 0.3s ease;
@@ -1217,7 +1217,7 @@ onMounted(() => {
 .item-count {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   padding: 2px 6px;
   border-radius: 10px;
 }
@@ -1253,7 +1253,7 @@ onMounted(() => {
 .stat-item {
   display: flex;
   align-items: center;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 12px;
@@ -1279,8 +1279,8 @@ onMounted(() => {
 }
 
 .search-input {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   padding: 6px 12px 6px 32px;
   color: rgba(255, 255, 255, 0.9);
@@ -1310,7 +1310,7 @@ onMounted(() => {
 }
 
 .toggle-btn {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 4px;
   color: rgba(255, 255, 255, 0.7);

@@ -340,7 +340,7 @@ defineExpose({
     }
     
     &::-webkit-scrollbar-track {
-      background: rgba(255, 255, 255, 0.1);
+      background: rgba(0, 0, 0, 0.08);
       border-radius: 3px;
     }
     
@@ -382,7 +382,7 @@ defineExpose({
     background: rgba(79, 70, 229, 0.9);
     border: none;
     border-radius: 50%;
-    color: #ffffff;
+    color: #333333;
     cursor: pointer;
     display: flex;
     align-items: center;

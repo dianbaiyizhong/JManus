@@ -47,7 +47,7 @@ const backHome = () => {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #0a0a0a;
+  background: #ffffff;
 }
 
 .error-container {
@@ -57,8 +57,8 @@ const backHome = () => {
   gap: 24px;
   padding: 48px;
   border-radius: 24px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(20px);
 }
 
@@ -90,17 +90,17 @@ const backHome = () => {
 
 .error-message {
   font-size: 18px;
-  color: #888888;
+  color: #666666;
   margin: 0;
   text-align: center;
 }
 
 .back-button {
   padding: 12px 24px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 12px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: #ffffff;
+  color: #333333;
   cursor: pointer;
   transition: all 0.2s ease;
   display: flex;

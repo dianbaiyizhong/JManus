@@ -426,7 +426,7 @@ const confirmDelete = async () => {
   border-radius: 16px;
   width: 90%;
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.15));
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
   max-width: 800px;
   max-height: 80vh;
@@ -498,7 +498,7 @@ const confirmDelete = async () => {
   border: 1px solid #333333;
   border-radius: 0.5rem;
   padding: 0.5rem 0.5rem 0.5rem 2.5rem;
-  color: #ffffff;
+  color: #333333;
   font-size: 0.875rem;
 }
 
@@ -512,7 +512,7 @@ const confirmDelete = async () => {
   left: 0.75rem;
   top: 50%;
   transform: translateY(-50%);
-  color: #888888;
+  color: #666666;
 }
 
 .message-list {
@@ -581,7 +581,7 @@ const confirmDelete = async () => {
   margin-bottom: 0.25rem;
   padding: 8px;
   background: rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 6px;
 }
 
@@ -704,7 +704,7 @@ const confirmDelete = async () => {
 .bubble-content {
   padding: 8px;
   background: rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 6px;
 }
 
@@ -779,7 +779,7 @@ const confirmDelete = async () => {
 
 .confirm-btn {
   background-color: #667eea;
-  color: #ffffff;
+  color: #333333;
 }
 
 .confirm-btn:hover {
@@ -788,7 +788,7 @@ const confirmDelete = async () => {
 
 .delete-btn-confirm {
   background-color: #ff6b6b;
-  color: #ffffff;
+  color: #333333;
 }
 
 .delete-btn-confirm:hover {
@@ -801,7 +801,7 @@ const confirmDelete = async () => {
   border: 1px solid #444444;
   border-radius: 0.5rem;
   padding: 0.5rem 0.75rem;
-  color: #ffffff;
+  color: #333333;
   font-size: 0.875rem;
 }
 

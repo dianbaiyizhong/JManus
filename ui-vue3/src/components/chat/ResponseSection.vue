@@ -166,13 +166,13 @@ const handleUserInputSubmitted = (inputData: any) => {
       
       .bot-icon {
         font-size: 16px;
-        color: #ffffff;
+        color: #333333;
       }
     }
     
     .response-name {
       font-weight: 600;
-      color: #ffffff;
+      color: #333333;
       font-size: 14px;
       flex: 1;
     }
@@ -188,17 +188,17 @@ const handleUserInputSubmitted = (inputData: any) => {
       position: relative;
       
       .response-text {
-        background: rgba(255, 255, 255, 0.05);
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: rgba(0, 0, 0, 0.03);
+        border: 1px solid rgba(0, 0, 0, 0.08);
         border-radius: 12px;
         padding: 16px;
-        color: #ffffff;
+        color: #333333;
         line-height: 1.6;
         font-size: 14px;
         
         :deep(strong) {
           font-weight: 600;
-          color: #ffffff;
+          color: #333333;
         }
         
         :deep(em) {
@@ -244,7 +244,7 @@ const handleUserInputSubmitted = (inputData: any) => {
           justify-content: center;
           width: 28px;
           height: 28px;
-          background: rgba(255, 255, 255, 0.1);
+          background: rgba(0, 0, 0, 0.08);
           border: none;
           border-radius: 6px;
           color: #aaaaaa;
@@ -253,7 +253,7 @@ const handleUserInputSubmitted = (inputData: any) => {
           
           &:hover {
             background: rgba(255, 255, 255, 0.2);
-            color: #ffffff;
+            color: #333333;
           }
           
           svg {
@@ -333,7 +333,7 @@ const handleUserInputSubmitted = (inputData: any) => {
         border: none;
         padding: 4px 8px;
         border-radius: 4px;
-        color: #ffffff;
+        color: #333333;
         font-size: 12px;
         cursor: pointer;
         transition: background 0.2s ease;
@@ -347,7 +347,7 @@ const handleUserInputSubmitted = (inputData: any) => {
     .response-empty {
       padding: 16px;
       text-align: center;
-      color: #888888;
+      color: #666666;
       font-style: italic;
       font-size: 13px;
     }

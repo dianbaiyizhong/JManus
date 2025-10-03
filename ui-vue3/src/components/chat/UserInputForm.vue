@@ -352,7 +352,7 @@ onUnmounted(() => {
     
     .user-input-title {
       margin: 0;
-      color: #ffffff;
+      color: #333333;
       font-size: 14px;
       font-weight: 600;
     }
@@ -361,7 +361,7 @@ onUnmounted(() => {
   .user-input-message {
     margin-bottom: 12px;
     font-weight: 500;
-    color: #ffffff;
+    color: #333333;
     font-size: 14px;
   }
   
@@ -392,7 +392,7 @@ onUnmounted(() => {
       label {
         font-size: 13px;
         font-weight: 500;
-        color: #ffffff;
+        color: #333333;
       }
       
       .form-input {
@@ -400,7 +400,7 @@ onUnmounted(() => {
         background: rgba(0, 0, 0, 0.3);
         border: 1px solid rgba(255, 255, 255, 0.2);
         border-radius: 6px;
-        color: #ffffff;
+        color: #333333;
         font-size: 14px;
         transition: border-color 0.2s ease;
         
@@ -411,7 +411,7 @@ onUnmounted(() => {
         }
         
         &::placeholder {
-          color: #888888;
+          color: #666666;
         }
       }
       
@@ -426,7 +426,7 @@ onUnmounted(() => {
         
         option {
           background: #2d3748;
-          color: #ffffff;
+          color: #333333;
         }
       }
       
@@ -455,7 +455,7 @@ onUnmounted(() => {
           
           .checkbox-label,
           .radio-label {
-            color: #ffffff;
+            color: #333333;
             font-size: 14px;
             user-select: none;
           }
@@ -465,7 +465,7 @@ onUnmounted(() => {
     
     .submit-user-input-btn {
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: #ffffff;
+      color: #333333;
       border: none;
       padding: 10px 20px;
       border-radius: 6px;

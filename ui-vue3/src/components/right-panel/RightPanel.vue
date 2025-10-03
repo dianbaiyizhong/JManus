@@ -662,7 +662,7 @@ defineExpose({
 
   .tab-button {
     padding: 8px 16px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.08);
     border-radius: 6px;
     background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
     border-color: #667eea;
@@ -705,7 +705,7 @@ defineExpose({
   min-height: 100px; /* Ensure minimum height */
 
   h3 {
-    color: #ffffff;
+    color: #333333;
     margin: 0 0 16px 0;
     font-size: 18px;
     font-weight: 600;
@@ -730,7 +730,7 @@ defineExpose({
   }
 
   &::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.08);
     border-radius: 3px;
   }
 
@@ -757,7 +757,7 @@ defineExpose({
     .label {
       min-width: 100px;
       font-weight: 600;
-      color: #888888;
+      color: #666666;
       flex-shrink: 0;
     }
 
@@ -776,7 +776,7 @@ defineExpose({
 .execution-status {
   margin-top: 16px;
   padding-top: 16px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
 
   .status-item {
     display: flex;
@@ -959,7 +959,7 @@ defineExpose({
 
 .step-info {
   h3 {
-    color: #ffffff;
+    color: #333333;
     margin: 0 0 20px 0;
     font-size: 18px;
     font-weight: 600;
@@ -970,7 +970,7 @@ defineExpose({
   margin-top: 20px; /* Increase top spacing since there's no fixed header step info now */
 
   h4 {
-    color: #ffffff;
+    color: #333333;
     margin: 0 0 16px 0;
     font-size: 16px;
     font-weight: 600;
@@ -986,8 +986,8 @@ defineExpose({
 }
 
 .think-act-step {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   padding: 16px;
 
@@ -1042,7 +1042,7 @@ defineExpose({
       margin: 0 0 12px 0;
       font-size: 14px;
       font-weight: 600;
-      color: #ffffff;
+      color: #333333;
     }
   }
 
@@ -1060,7 +1060,7 @@ defineExpose({
       .label {
         display: block;
         font-weight: 600;
-        color: #888888;
+        color: #666666;
         margin-bottom: 4px;
         font-size: 12px;
       }
@@ -1072,7 +1072,7 @@ defineExpose({
 
       pre {
         background: rgba(0, 0, 0, 0.3);
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(0, 0, 0, 0.08);
         border-radius: 4px;
         padding: 12px;
         color: #cccccc;
@@ -1108,7 +1108,7 @@ defineExpose({
         .label {
           min-width: 80px;
           font-weight: 600;
-          color: #888888;
+          color: #666666;
           flex-shrink: 0;
         }
 
@@ -1124,7 +1124,7 @@ defineExpose({
         align-items: center;
         gap: 6px;
         padding-top: 8px;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        border-top: 1px solid rgba(0, 0, 0, 0.08);
 
         .status-icon {
           font-size: 14px;
@@ -1165,7 +1165,7 @@ defineExpose({
   h3 {
     margin: 0 0 8px 0;
     font-size: 18px;
-    color: #888888;
+    color: #666666;
   }
 
   p {
@@ -1287,7 +1287,7 @@ defineExpose({
 .preview-tabs {
   display: flex;
   gap: 0;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   padding: 4px;
 }
@@ -1316,7 +1316,7 @@ defineExpose({
 
 .tab-item.active {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: #ffffff;
+  color: #333333;
   box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
 }
 

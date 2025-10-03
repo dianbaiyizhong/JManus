@@ -144,10 +144,10 @@ src/
 ### Color Palette
 
 - **Primary**: Linear gradient from `#667eea` to `#764ba2`
-- **Background**: `#0a0a0a` (Dark)
-- **Surface**: `rgba(255, 255, 255, 0.05)` (Glass effect)
-- **Border**: `rgba(255, 255, 255, 0.1)`
-- **Text**: `#ffffff` (Primary), `#888888` (Secondary)
+- **Background**: `#ffffff` (Dark)
+- **Surface**: `rgba(0, 0, 0, 0.03)` (Glass effect)
+- **Border**: `rgba(0, 0, 0, 0.08)`
+- **Text**: `#ffffff` (Primary), `#666666` (Secondary)
 
 ### Components
 

@@ -292,8 +292,8 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   gap: 8px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 12px;
   padding: 12px 16px;
 
@@ -308,7 +308,7 @@ onUnmounted(() => {
   background: transparent;
   border: none;
   outline: none;
-  color: #ffffff;
+  color: #333333;
   font-size: 14px;
   line-height: 1.5;
   resize: none;
@@ -337,14 +337,14 @@ onUnmounted(() => {
   padding: 6px 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 6px;
-  background: rgba(255, 255, 255, 0.05);
-  color: #ffffff;
+  background: rgba(0, 0, 0, 0.03);
+  color: #333333;
   font-size: 12px;
   cursor: pointer;
   transition: all 0.2s ease;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.08);
     border-color: #667eea;
     transform: translateY(-1px);
   }
@@ -359,7 +359,7 @@ onUnmounted(() => {
   border: none;
   border-radius: 6px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: #ffffff;
+  color: #333333;
   font-size: 12px;
   cursor: pointer;
   transition: all 0.2s ease;

@@ -516,15 +516,15 @@ onMounted(() => {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #0a0a0a;
+  background: #ffffff;
   position: relative;
   padding: 40px 20px;
 }
 
 .init-card {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 20px;
   padding: 40px;
   width: 100%;
@@ -563,13 +563,13 @@ onMounted(() => {
 
 .init-header h2 {
   font-size: 28px;
-  color: #ffffff;
+  color: #333333;
   margin: 0 0 12px 0;
   font-weight: 600;
 }
 
 .description {
-  color: #888888;
+  color: #666666;
   font-size: 16px;
   line-height: 1.6;
   margin: 0;
@@ -609,37 +609,37 @@ onMounted(() => {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   border: 2px solid rgba(255, 255, 255, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 600;
-  color: #ffffff;
+  color: #333333;
   transition: all 0.3s ease;
 }
 
 .step.active .step-number {
   background: #667eea;
   border-color: #667eea;
-  color: #ffffff;
+  color: #333333;
 }
 
 .step.completed .step-number {
   background: #4ade80;
   border-color: #4ade80;
-  color: #ffffff;
+  color: #333333;
 }
 
 .step-label {
   font-size: 14px;
-  color: #888888;
+  color: #666666;
   text-align: center;
   transition: all 0.3s ease;
 }
 
 .step.active .step-label {
-  color: #ffffff;
+  color: #333333;
   font-weight: 500;
 }
 
@@ -678,7 +678,7 @@ onMounted(() => {
 
 .language-option:hover {
   border-color: rgba(102, 126, 234, 0.4);
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   transform: translateY(-2px);
 }
 
@@ -722,13 +722,13 @@ onMounted(() => {
 }
 
 .language-text strong {
-  color: #ffffff;
+  color: #333333;
   font-size: 18px;
   font-weight: 600;
 }
 
 .language-text small {
-  color: #888888;
+  color: #666666;
   font-size: 14px;
 }
 
@@ -739,7 +739,7 @@ onMounted(() => {
 .form-label {
   display: block;
   font-weight: 500;
-  color: #ffffff;
+  color: #333333;
   margin-bottom: 8px;
   font-size: 14px;
 }
@@ -756,8 +756,8 @@ onMounted(() => {
   border-radius: 8px;
   font-size: 16px;
   transition: all 0.3s ease;
-  background: rgba(255, 255, 255, 0.05);
-  color: #ffffff;
+  background: rgba(0, 0, 0, 0.03);
+  color: #333333;
   box-sizing: border-box;
 }
 
@@ -806,7 +806,7 @@ onMounted(() => {
 }
 
 .api-key-toggle-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
 }
 
 .api-key-toggle-btn:focus {
@@ -840,7 +840,7 @@ onMounted(() => {
 
 .radio-option:hover {
   border-color: rgba(102, 126, 234, 0.4);
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
 }
 
 .radio-option.active {
@@ -862,19 +862,19 @@ onMounted(() => {
 }
 
 .radio-text strong {
-  color: #ffffff;
+  color: #333333;
   font-size: 16px;
   font-weight: 600;
 }
 
 .radio-text small {
-  color: #888888;
+  color: #666666;
   font-size: 14px;
   line-height: 1.4;
 }
 
 .custom-config-section {
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 12px;
   padding: 20px;
   background: rgba(255, 255, 255, 0.02);
@@ -883,7 +883,7 @@ onMounted(() => {
 
 .form-hint {
   font-size: 13px;
-  color: #888888;
+  color: #666666;
   margin-top: 6px;
   line-height: 1.4;
 }
@@ -915,7 +915,7 @@ onMounted(() => {
   border: 2px solid rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   background: transparent;
-  color: #ffffff;
+  color: #333333;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
