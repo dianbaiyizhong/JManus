@@ -819,7 +819,7 @@ const newChat = () => {
 .panel-resizer {
   width: 6px;
   height: 100vh;
-  background: #ffffff;
+  background: #f8fafc;
   cursor: col-resize;
   position: relative;
   display: flex;
@@ -829,7 +829,7 @@ const newChat = () => {
   flex-shrink: 0;
 
   &:hover {
-    background: #2a2a2a;
+    background: #f8fafc;
 
     .resizer-line {
       background: #4a90e2;
@@ -838,14 +838,14 @@ const newChat = () => {
   }
 
   &:active {
-    background: #3a3a3a;
+    background: #f8fafc;
   }
 }
 
 .resizer-line {
   width: 1px;
   height: 40px;
-  background: #3a3a3a;
+  background: #4a90e2;
   border-radius: 1px;
   transition: all 0.2s ease;
 }
