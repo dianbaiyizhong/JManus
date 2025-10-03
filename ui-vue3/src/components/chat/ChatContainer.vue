@@ -326,7 +326,7 @@ defineExpose({
   flex-direction: column;
   height: 100%;
   position: relative;
-  background: #1a1a1a;
+  background: #ffffff;
   
   .messages {
     flex: 1;

@@ -1028,7 +1028,7 @@ defineExpose({
 .sidebar-resizer {
   width: 6px;
   height: 100vh;
-  background: #1a1a1a;
+  background: #ffffff;
   cursor: col-resize;
   position: relative;
   display: flex;

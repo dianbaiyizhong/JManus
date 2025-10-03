@@ -657,7 +657,7 @@ defineExpose({
 
 .preview-header {
   padding: 20px 24px;
-  border-bottom: 1px solid #1a1a1a;
+  border-bottom: 1px solid #ffffff;
   background: rgba(255, 255, 255, 0.02);
 
   .tab-button {

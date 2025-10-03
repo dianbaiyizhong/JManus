@@ -273,7 +273,7 @@ onUnmounted(() => {
 .input-area {
   min-height: 112px;
   padding: 10px 12px;
-  border-top: 1px solid #1a1a1a;
+  border-top: 1px solid #ffffff;
   background: rgba(255, 255, 255, 0.02);
   /* Ensure the input area is always at the bottom */
   flex-shrink: 0; /* Won't be compressed */

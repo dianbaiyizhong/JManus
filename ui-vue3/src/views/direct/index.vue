@@ -819,7 +819,7 @@ const newChat = () => {
 .panel-resizer {
   width: 6px;
   height: 100vh;
-  background: #1a1a1a;
+  background: #ffffff;
   cursor: col-resize;
   position: relative;
   display: flex;
@@ -857,7 +857,7 @@ const newChat = () => {
 
 .chat-header {
   padding: 20px 24px;
-  border-bottom: 1px solid #1a1a1a;
+  border-bottom: 1px solid #ffffff;
   display: flex;
   align-items: center;
   gap: 16px;
