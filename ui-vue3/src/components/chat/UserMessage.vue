@@ -70,7 +70,7 @@ const { formatTimestamp, formatFileSize } = useMessageFormatting()
   
   .user-content {
     max-width: 70%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
     color: #333333;
     padding: 12px 16px;
     border-radius: 18px 18px 4px 18px;

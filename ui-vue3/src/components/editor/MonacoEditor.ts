@@ -43,7 +43,7 @@ export default function useMonaco(language = 'json') {
       monaco.editor.create(el, {
         language,
         minimap: { enabled: true },
-        theme: 'vs-dark',
+        theme: 'vs-light',
         multiCursorModifier: 'ctrlCmd',
         tabSize: 2,
         automaticLayout: true, // Auto-adapt width and height

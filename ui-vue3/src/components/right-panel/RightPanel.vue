@@ -1071,11 +1071,11 @@ defineExpose({
       }
 
       pre {
-        background: rgba(0, 0, 0, 0.3);
+        background: rgba(255, 255, 255, 0.05);
         border: 1px solid rgba(0, 0, 0, 0.08);
         border-radius: 4px;
         padding: 12px;
-        color: #cccccc;
+        //color: #cccccc;
         font-size: 12px;
         overflow-x: auto;
         white-space: pre-wrap;
@@ -1315,7 +1315,7 @@ defineExpose({
 }
 
 .tab-item.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
   color: #333333;
   box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
 }

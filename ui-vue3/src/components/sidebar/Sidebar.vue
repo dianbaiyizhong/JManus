@@ -690,7 +690,7 @@ defineExpose({
       font-size: 20px;
       font-weight: 600;
 
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -730,7 +730,7 @@ defineExpose({
       }
 
       &.active {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
         color: white;
         box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
       }
@@ -854,7 +854,7 @@ defineExpose({
     .new-task-btn {
       width: 100%;
       padding: 12px 16px;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
       border: none;
       border-radius: 8px;
       color: white;

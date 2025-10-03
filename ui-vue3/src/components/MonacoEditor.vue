@@ -39,7 +39,7 @@ const createEditor = () => {
   editor = monaco.editor.create(editorContainer.value, {
     value: props.modelValue,
     language: props.language,
-    theme: 'vs-dark',
+    theme: 'vs-light',
     automaticLayout: true,
     minimap: { enabled: false },
     scrollBeyondLastLine: false,
@@ -73,7 +73,7 @@ const createEditor = () => {
 
   // Custom theme
   monaco.editor.defineTheme('custom-dark', {
-    base: 'vs-dark',
+    base: 'vs-light',
     inherit: true,
     rules: [
       { token: 'string', foreground: '#34d399' },

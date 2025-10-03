@@ -911,7 +911,7 @@ defineExpose({
   transition: all 0.2s ease;
 
   &.btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
     color: white;
 
     &:hover:not(:disabled) {
@@ -921,7 +921,7 @@ defineExpose({
   }
 
   &.publish-mcp-btn {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
     color: #333333;
     border: none;
 

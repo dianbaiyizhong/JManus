@@ -330,7 +330,7 @@ const selectPlan = async (plan: any) => {
   &.orb-1 {
     width: 400px;
     height: 400px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
     top: -200px;
     right: -200px;
     animation-delay: 0s;
@@ -401,7 +401,7 @@ const selectPlan = async (plan: any) => {
     font-size: 48px;
     font-weight: 700;
     margin: 0 0 8px 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -494,7 +494,7 @@ const selectPlan = async (plan: any) => {
   height: 40px;
   border: none;
   border-radius: 8px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
   color: #333333;
   cursor: pointer;
   display: flex;
@@ -548,7 +548,7 @@ const selectPlan = async (plan: any) => {
   position: absolute;
   top: 12px;
   right: 12px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
   color: white;
   padding: 4px 8px;
   border-radius: 4px;
@@ -642,7 +642,7 @@ const selectPlan = async (plan: any) => {
     font-size: 20px;
     font-weight: 600;
     color: #333333;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -654,7 +654,7 @@ const selectPlan = async (plan: any) => {
   padding: 12px 24px;
   border: none;
   border-radius: 8px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
   color: #333333;
   font-size: 16px;
   cursor: pointer;

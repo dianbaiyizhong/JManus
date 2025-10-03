@@ -81,7 +81,7 @@ const backHome = () => {
   font-size: 64px;
   font-weight: 700;
   margin: 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -99,7 +99,7 @@ const backHome = () => {
   padding: 12px 24px;
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 12px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
   color: #333333;
   cursor: pointer;
   transition: all 0.2s ease;
