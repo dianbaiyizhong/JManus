@@ -193,15 +193,7 @@
     </div>
   </div>
 
-  <!-- Publish MCP Service Modal -->
-  <PublishServiceModal
-    ref="publishMcpModalRef"
-    v-model="showPublishMcpModal"
-    :plan-template-id="sidebarStore.currentPlanTemplateId || ''"
-    :plan-title="sidebarStore.selectedTemplate?.title || ''"
-    :plan-description="sidebarStore.selectedTemplate?.description || ''"
-    @published="handleMcpServicePublished"
-  />
+
 </template>
 
 <script setup lang="ts">
@@ -209,9 +201,6 @@ import { onMounted, ref, computed, onUnmounted, watch } from 'vue'
 import { Icon } from '@iconify/vue'
 import { useI18n } from 'vue-i18n'
 import { sidebarStore } from '@/stores/sidebar'
-import PublishServiceModal from '@/components/publish-service-modal/PublishServiceModal.vue'
-import type { CoordinatorToolVO, CoordinatorToolConfig } from '@/api/coordinator-tool-api-service'
-import { CoordinatorToolApiService } from '@/api/coordinator-tool-api-service'
 import JsonEditor from './JsonEditor.vue'
 import JsonEditorV2 from './JsonEditorV2.vue'
 import ExecutionController from './ExecutionController.vue'
@@ -244,34 +233,6 @@ const currentToolInfo = ref<CoordinatorToolVO>({
 })
 const publishMcpModalRef = ref<InstanceType<typeof PublishServiceModal> | null>(null)
 
-
-
-// CoordinatorTool configuration
-const coordinatorToolConfig = ref<CoordinatorToolConfig>({
-  enabled: true,
-  success: true
-})
-
-// Computed property: whether to show publish MCP service button
-const showPublishButton = computed(() => {
-  return coordinatorToolConfig.value.enabled
-})
-
-// Load CoordinatorTool configuration
-const loadCoordinatorToolConfig = async () => {
-  try {
-    const config = await CoordinatorToolApiService.getCoordinatorToolConfig()
-    coordinatorToolConfig.value = config
-  } catch (error) {
-    console.error('Failed to load CoordinatorTool configuration:', error)
-    // Use default configuration
-    coordinatorToolConfig.value = {
-      enabled: true,
-      success: false,
-      message: error instanceof Error ? error.message : 'Unknown error'
-    }
-  }
-}
 
 
 
@@ -493,56 +454,6 @@ const handleUpdatePlanType = (planType: string) => {
 }
 
 // Load tool information when plan template changes
-const loadToolInfo = async (planTemplateId: string | null) => {
-  if (!planTemplateId) {
-    currentToolInfo.value = {
-      toolName: '',
-      toolDescription: '',
-      planTemplateId: '',
-      inputSchema: '[]',
-      enableHttpService: false,
-      enableMcpService: false,
-      enableInternalToolcall: false,
-      serviceGroup: ''
-    }
-    return
-  }
-
-  try {
-    const toolData = await CoordinatorToolApiService.getCoordinatorToolsByTemplate(planTemplateId)
-    if (toolData) {
-      currentToolInfo.value = {
-        ...toolData,
-        toolName: toolData.toolName || '',
-        serviceGroup: toolData.serviceGroup || ''
-      }
-    } else {
-      // No tool found or not published, don't show any call examples
-      currentToolInfo.value = {
-        toolName: '',
-        toolDescription: '',
-        planTemplateId: planTemplateId,
-        inputSchema: '[]',
-        enableHttpService: false,
-        enableMcpService: false,
-        enableInternalToolcall: false,
-        serviceGroup: ''
-      }
-    }
-  } catch (error) {
-    console.error('Failed to load tool information:', error)
-    currentToolInfo.value = {
-      toolName: '',
-      toolDescription: '',
-      planTemplateId: planTemplateId,
-      inputSchema: '[]',
-      enableHttpService: false,
-      enableMcpService: false,
-      enableInternalToolcall: false,
-      serviceGroup: ''
-    }
-  }
-}
 
 // Utility functions
 const getRelativeTimeString = (date: Date): string => {
@@ -616,15 +527,11 @@ const resetSidebarWidth = () => {
   localStorage.setItem('sidebarWidth', '80')
 }
 
-// Watch for plan template changes to load tool information
-watch(() => sidebarStore.currentPlanTemplateId, (newPlanTemplateId) => {
-  loadToolInfo(newPlanTemplateId)
-}, { immediate: true })
+
 
 // Lifecycle
 onMounted(() => {
   sidebarStore.loadPlanTemplateList()
-  loadCoordinatorToolConfig()
   sidebarStore.loadAvailableTools() // Load available tools on sidebar mount
 
   // Restore sidebar width from localStorage
