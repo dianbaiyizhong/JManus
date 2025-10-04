@@ -27,12 +27,9 @@ export declare type RouteRecordType = RouteRecordRaw & {
 
 export const routes: Readonly<RouteRecordType[]> = [
   {
-    path: '/direct/:id?',
+    path: '/:id?',
     component: () => import('../views/direct/index.vue'),
-    name: 'direct',
-    meta: {
-      skip: true,
-    },
+    name: 'home',
   },
   {
     path: '/:catchAll(.*)',

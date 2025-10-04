@@ -19,10 +19,7 @@ import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 
 export default defineConfig({
-  base: '/ui',
-  build: {
-    outDir: './ui',
-  },
+  base: '/',
   server: {
     open: true, // Automatically open browser on startup
     host: true, // Allow external access
@@ -30,11 +27,7 @@ export default defineConfig({
       '/api': {
         target: 'http://localhost:18080',
         changeOrigin: true,
-      },
-      '/admin': {
-        target: 'http://localhost:18080',
-        changeOrigin: true,
-      },
+      }
     },
   },
   plugins: [
